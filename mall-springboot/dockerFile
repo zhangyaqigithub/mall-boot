@@ -6,6 +6,6 @@ MAINTAINER demo <demo@qq.com>
 
 VOLUME /tmp
 #指定配置文件，以及jar包在服务器上的路径
-ENTRYPOINT ["java","-jar","app.jar"]
+ENTRYPOINT ["java","-jar","/var/jenkins_home/workspace/testgit/mall-springboot/target/mall-springboot-0.0.1-SNAPSHOT.jar"]
 #暴露端口
 EXPOSE 8085
