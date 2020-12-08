@@ -35,7 +35,7 @@ public class UserController {
 	 * 查询全部
 	 * @return
 	 */
-	@RequestMapping("/user/list")
+	@RequestMapping("/user/list") 
 	@ResponseBody
 	public List<User> getListUser() {
 		UserExample example = new UserExample();
