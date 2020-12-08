@@ -30,7 +30,11 @@ import io.github.yedaxia.apidocs.Ignore;
 public class UserController {
 	@Autowired
 	private UserService userService;
-
+	@RequestMapping("/hello") 
+	@ResponseBody
+	public String getHello() {
+		return "hello world!";
+	}
 	/**
 	 * 查询全部
 	 * @return
