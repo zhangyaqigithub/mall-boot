@@ -33,7 +33,7 @@ public class UserController {
 	@RequestMapping("/hello") 
 	@ResponseBody
 	public String getHello() {
-		return "hello world! jenkins CI-CD！";
+		return "hello world! jenkins CI-CD！ 1";
 	}
 	/**
 	 * 查询全部
